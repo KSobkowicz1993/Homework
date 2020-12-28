@@ -1,0 +1,18 @@
+.site-articles {
+    color: $color-white;
+    background-color: $color-bg-section;
+    position: relative;
+    margin-top: 3*$font-base;
+    padding: 2*$font-base;
+    
+    &__article{
+        padding: 2*$grid-base;
+        height: 40vh;
+    }
+
+    &__button{
+        margin-top: 3*$font-base;
+        margin-right: 2*$font-base;
+        float: right;
+    }
+}

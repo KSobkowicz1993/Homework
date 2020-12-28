@@ -1,0 +1,31 @@
+.image-box {
+    border-radius: .6*$font-base;
+    box-shadow: 0px 0px 15px grey;
+
+    &:hover {
+        box-shadow: 0px 0px 25px grey;
+    }
+
+    &__image {
+        background: url('../assets/img/img/one.jpg') center/cover no-repeat;
+        height: 22*$font-base;
+        display: block;
+        border-top-left-radius: 0.6*$font-base;
+        border-top-right-radius: 0.6*$font-base;
+
+        @include medium {
+            height: 16*$font-base;
+        }
+
+        &--next {
+            background: url('../assets/img/img/two.jpeg') center/cover no-repeat;
+
+        }
+    }
+
+    &__text {
+        text-align: center;
+        padding: $font-base;
+        font-size: 1.8*$font-base;
+    }
+}

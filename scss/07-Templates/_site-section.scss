@@ -1,0 +1,10 @@
+.site-section{
+    min-height: 70vh;
+    padding-top: 3*$grid-base;
+    
+
+    &--bg-color{
+        background-color: $color-bg-section;
+    }
+
+}

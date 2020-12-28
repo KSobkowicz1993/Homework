@@ -1,0 +1,62 @@
+.btn {
+    color: $color-white;
+    border: none;
+    border-radius: 0.4*$font-base;
+    display: inline-block;
+    font-size: 2.2*$font-base;
+    font-weight: bold;
+    padding: 1.5*$font-base;
+    text-align: center;
+    width: 20*$font-base;
+    transition-duration: .5s;
+
+    &--red {
+        background-color: $color-red;
+
+        &:hover {
+            background-color: darken($color-red, 10%);
+        }
+    }
+
+    &--green {
+        background-color: $color-green;
+
+        &:hover {
+            background-color: darken($color-green, 10%);
+        }
+    }
+
+    &--brown {
+        background-color: $color-bg-footer;
+
+        &:hover {
+            background-color: darken($color-bg-footer, 10%);
+        }
+    }
+
+    &--outline {
+        background-color: transparent;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    &--circle {
+        border-radius: 50%;
+        width: 10*$font-base;
+        height: 10*$font-base;
+        line-height: 10*$font-base;
+        padding: 0;
+    }
+
+    &--mdcircle {
+        border-radius: 25%;
+        width: 12*$font-base;
+        height: 3*$font-base;
+        padding: 0.5*$font-base;
+        font-size: 1.6*$font-base;
+        font-weight: none;
+    }
+
+}

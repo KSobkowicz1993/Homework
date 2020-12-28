@@ -1,0 +1,34 @@
+.form{
+    width: 95%;
+    @include medium{
+        width: 60%;
+    }
+    @include large{
+        width: 40%;
+    }
+
+    &__label{
+        font-size: 1.8*$font-base;
+        display: block;
+        padding-bottom: 0.6*$font-base;
+    }
+    &__item{
+        color: $color-white;
+        display: block;
+        width: 100%;
+        font-size: 1.6*$font-base;
+        padding: 1.4*$font-base;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 1.5*$font-base;
+        border: 0.1*$font-base solid $color-white;
+        border-radius: 0.4*$font-base;
+        outline: 0;
+        resize: none;
+        font-family: inherit;
+
+        &:focus{
+            background-color: rgba(255, 255, 255, 0.2);
+            color: $color-white;
+        }
+    }
+}
