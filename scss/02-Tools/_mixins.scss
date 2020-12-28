@@ -9,18 +9,3 @@
         @content;
     }
 }
-
-// // test
-// h1{
-//     font-size: $font-base*2;
-//     color: red;
-//     @include medium {
-//         font-size: $font-base*4;
-//         color: green;
-//     }
-//     @include large {
-//         font-size: $font-base*6;
-//         color: blue;
-//     }
-
-// }
